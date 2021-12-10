@@ -214,6 +214,7 @@ for(i in 1:bands){
   for(j in 1:ncol(signature)){
     for(k in 1:ncol(signature)){
       if(all(signature[((i-1)*rows+1):(i*rows),j] == signature[((i-1)*rows+1):(i*rows),k]) & j<k & website[j]!=website[k]){
+        # & !(j  %in% midepairs[,1] & k %in% midepairs[,2]): normally, this is added to the if statement for less comparisons, but LSH has to be evaluated
         lshpairs = cbind(lshpairs, c(i,j,k, mean(signature[((i-1)*rows+1):(i*rows),j])) ) 
       }
     }
