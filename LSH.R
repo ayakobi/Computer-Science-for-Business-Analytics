@@ -1,8 +1,8 @@
 #509792ay - Computer Science for Marketing Analytics
-install.packages('dplyr')
-install.packages('proxy')
-install.packages('stringr')
-install.packages('data.table')
+install.packages("dplyr")
+install.packages("proxy")
+install.packages("stringr")
+install.packages("data.table")
 install.packages("rjson")
 install.packages("matlab")
 install.packages("LambertW")
