@@ -8,7 +8,7 @@ Nevertheless, the code is structured in three parts.
 Part 1 (1-279): The implementation of MIDE, LSH and Clustering on the full dataset with optimal parameters obtained by the methods listed below.
 Part 2 (280-454): The implementation of the LSH function with inputs: the data, number of signatures, and the number of bands.
 Part 3 (455-651): The implementation of the LSH and Clustering function with inputs: the data, number of signatures, optimal number of bands, and a threshold level.
-Part 4 (652-707): Bootstrapping is applied where the F1-measure is utilized to find the optimal bands and threshold levels, respectively.
+Part 4 (652-711): Bootstrapping is applied where the F1-measure is utilized to find the optimal bands and threshold levels, respectively.
 
 The code can be run from the beginning to the end, all the results will be available in the R console.
 
