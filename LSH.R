@@ -1,4 +1,4 @@
-#Abdelmounaim el Yaakoubi - 509792ay - Computer Science for Marketing Analytics
+#509792ay - Computer Science for Marketing Analytics
 install.packages('dplyr')
 install.packages('proxy')
 install.packages('stringr')
