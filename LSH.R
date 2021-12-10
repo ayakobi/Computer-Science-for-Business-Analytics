@@ -664,7 +664,7 @@ for(i in 1:10){
   }
   
   optimalbandtrain = bands[which.max(Fthres)]
-  optimalbandtest = exp(W(-240*log(optimalbandtrain)))
+  optimalbandtest = bands[which.min(abs(bands - exp(W(-240*log(optimalbandtrain)))))]
   
   print(optimalbandtrain)
   print(optimalbandtest)
